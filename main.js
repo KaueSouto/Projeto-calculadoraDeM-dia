@@ -6,7 +6,7 @@ const notas = []
 let linhas = ''
 const spanAprovado = '<span class="resultado Aprovado">Aprovado</span>'
 const spanReprovado = '<span class="resultado Reprovado">Reprovado</span>'
-const notaMinima = parseFloat(prompt("Nota mínima para aprovção"))
+const notaMinima = parseFloat(prompt("Nota mínima para aprovação"))
 
 
 form.addEventListener('submit', function(e){
