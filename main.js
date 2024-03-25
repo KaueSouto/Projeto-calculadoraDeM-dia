@@ -46,7 +46,7 @@ function atualizaTabela(){
 function atualizaMedia(){
     const media = calculaMedia()
 
-    document.getElementById('media-valor').innerHTML = media
+    document.getElementById('media-valor').innerHTML = media.toFixed(2)
     document.getElementById('media-resultado').innerHTML = media >=notaMinima ?  spanAprovado: spanReprovado
 }
 function calculaMedia(){
